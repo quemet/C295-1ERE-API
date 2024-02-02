@@ -14,6 +14,13 @@ productRouter.get("/", (req, res) => {
   res.json(success(message, products));
 });
 
+productRouter.get("/:id", (req, res) => {
+  const productId = req.params.id;
+  const product = getProduct(productId);
+  const message = `Le produit ${product.name} a bien été supprimé !`;
+  res.json(sucess(message, product))
+})
+
 productRouter.delete("/:id", (req, res) => {
   const productId = req.params.id;
 
