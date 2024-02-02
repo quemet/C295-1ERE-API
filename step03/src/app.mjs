@@ -2,6 +2,9 @@ import express from "express";
 import { productRouter } from "./routes/products.mjs";
 
 const app = express();
+
+app.use(express.json());
+
 const port = 300;
 
 app.get("/", (req, res) => {
