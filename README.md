@@ -17,10 +17,11 @@ Language, Framework et Outils
 
 # Installation 
 ## Installation of Node and NPM :
-Go to this link -> [Node Web Site](https://nodejs.org/en/download/)  
-Install the .msi 64-bit installer  
-Follow the installation  
-Check the installation of Node and NPM
+* Go to this link -> [Node Web Site](https://nodejs.org/en/download/)  
+* Install the .msi 64-bit installer  
+* Follow the installation  
+* Check the installation of Node and NPM
+* Check the version of Node and NPM
 ```shell
 Node --version
 ```
