@@ -16,6 +16,10 @@ Language, Framework et Outils
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
+# Description
+
+Ce reposotory a pour but de mettre les solutions de la première API du module C295.
+
 # Installation 
 ## Installation of Node and NPM :
 * Go to this link -> [Node Web Site](https://nodejs.org/en/download/)  
@@ -31,14 +35,17 @@ Output : v14.17.3
 npm --version
 ```
 Output : 6.14.13
+
 ## Installation of Nodemon
 ```shell
 npm install nodemon--save-dev
 ```
+
 ## Installation Exrpess.js
 ```shell
 npm install express--save
 ```
+
 ## Installation Sequelize
 ```shell
 npm install sequelize--save
