@@ -9,4 +9,11 @@ productRouter.get("/", (req, res) => {
   res.json(sucess(message, products));
 });
 
+productRouter.get("/:id", (req, res) => {
+  const productId = req.params.id;
+  const product = products.find((product) => product.id == producId);
+  const message = `Le produit dont l'id vaut ${productId} a bien été récuperé`;
+  res.json(sucess(message, product));
+})
+
 export { productRouter };
