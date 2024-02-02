@@ -50,3 +50,17 @@ npm install express--save
 ```shell
 npm install sequelize--save
 ```
+# Table des matières
+* [Step1](https://github.com/quemet/C295-1ERE-API/tree/main/step01)
+* [Step2](https://github.com/quemet/C295-1ERE-API/tree/main/step02)
+* [Step3](https://github.com/quemet/C295-1ERE-API/tree/main/step03)
+* [Step4](https://github.com/quemet/C295-1ERE-API/tree/main/step04)
+* [Step5](https://github.com/quemet/C295-1ERE-API/tree/main/step05)
+* [Step6](https://github.com/quemet/C295-1ERE-API/tree/main/step06)
+* [Step7](https://github.com/quemet/C295-1ERE-API/tree/main/step07)
+* [Step8](https://github.com/quemet/C295-1ERE-API/tree/main/step08)
+* [Step9](https://github.com/quemet/C295-1ERE-API/tree/main/step09)
+* [Step10](https://github.com/quemet/C295-1ERE-API/tree/main/step10)
+* [Step11](https://github.com/quemet/C295-1ERE-API/tree/main/step11)
+* [Step12](https://github.com/quemet/C295-1ERE-API/tree/main/step12)
+  
