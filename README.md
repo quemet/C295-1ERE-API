@@ -16,3 +16,28 @@ Language, Framework et Outils
 ![Insomnia](https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE)
 
 # Installation 
+## Installation of Node and NPM :
+Go to this link -> [Node Web Site](https://nodejs.org/en/download/)  
+Install the .msi 64-bit installer  
+Follow the installation  
+Check the installation of Node and NPM
+```shell
+Node --version
+```
+Output : v14.17.3
+```shell
+npm --version
+```
+Output : 6.14.13
+## Installation of Nodemon
+```shell
+npm install nodemon--save-dev
+```
+## Installation Exrpess.js
+```shell
+npm install express--save
+```
+## Installation Sequelize
+```shell
+npm install sequelize--save
+```
