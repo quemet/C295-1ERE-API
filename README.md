@@ -20,8 +20,8 @@ Language, Framework et Outils
 
 Ce reposotory a pour but de mettre les solutions de la première API du module C295.
 
-# Installation 
-## Installation of Node and NPM :
+## Installation pour Windows
+### Installation of Node and NPM :
 * Go to this link -> [Node Web Site](https://nodejs.org/en/download/)  
 * Install the .msi 64-bit installer  
 * Follow the installation  
@@ -36,17 +36,17 @@ npm --version
 ```
 Output : 6.14.13
 
-## Installation of Nodemon
+### Installation of Nodemon
 ```shell
 npm install nodemon--save-dev
 ```
 
-## Installation Exrpess.js
+### Installation Exrpess.js
 ```shell
 npm install express--save
 ```
 
-## Installation Sequelize
+### Installation Sequelize
 ```shell
 npm install sequelize--save
 ```
@@ -63,4 +63,6 @@ npm install sequelize--save
 * [Step10](https://github.com/quemet/C295-1ERE-API/tree/main/step10)
 * [Step11](https://github.com/quemet/C295-1ERE-API/tree/main/step11)
 * [Step12](https://github.com/quemet/C295-1ERE-API/tree/main/step12)
+* [Step13](https://github.com/quemet/C295-1ERE-API/tree/main/step13)
+* [Step14](https://github.com/quemet/C295-1ERE-API/tree/main/step14)
   
