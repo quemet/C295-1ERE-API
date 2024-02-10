@@ -169,6 +169,39 @@ productsRouter.post("/", auth, (req, res) => {
     });
 });
 
+/**
+ * @swagger
+ * /api/products/:id:
+ *  put:
+ *    tags: [Products]
+ *    security :
+ *      - bearerAuth: []
+ *    summary. Change a product into the db.
+ *    description: change a product into the db. Can be used to populate a select HTML tag.
+ *    responses:
+ *      200:
+ *        description: One product.
+ *        content:
+ *          application/json:
+ *            schema:
+ *              type: object
+ *              properties:
+ *                data:
+ *                  type: object
+ *                  propreties:
+ *                    id:
+ *                      type: integer
+ *                      description: The product ID.
+ *                      example: 1
+ *                    name:
+ *                      type: string
+ *                      description: The product's name
+ *                      example: Big Mac
+ *                    price:
+ *                      type: number
+ *                      description: The product's price
+ *                      example: 5.99
+ */
 productsRouter.put("/:id", auth, (req, res) => {
   const productId = req.params.id;
   Product.update(req.body, { where: { id: productId } })
