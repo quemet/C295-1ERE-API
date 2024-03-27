@@ -1,5 +1,7 @@
 import express from "express";
 
+import cors from "cors";
+
 import { productsRouter } from "./routes/products.mjs";
 
 import { sequelize, initDb } from "./db/sequelize.mjs";
@@ -13,6 +15,13 @@ import { swaggerSpec } from "./swagger.mjs";
 const app = express();
 
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: "http://localhost:1234",
+    credentials: true,
+  })
+);
 
 const port = 3000;
 
